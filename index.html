@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(to bottom, #FF69B4, #4169E1);
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .table {
+            background: #E6E6FA;
+            border-radius: 12px;
+            padding: 20px;
+            max-width: 800px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #7B68EE;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background: #7B68EE;
+            color: white;
+        }
+
+        tr:nth-child(odd) {
+            background: #7B68EE;
+        }
+
+        tr:nth-child(even) {
+            background: #E6E6FA;
+        }
+
+        a {
+            color: #FF69B4;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <title>Styled Table</title>
+</head>
+<body>
+    <div class="table">
+        <table>
+            <tr>
+                <th>S.No</th>
+                <th>Task</th>
+                <th>Github</th>
+                <th>Vercel</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Word Counter</td>
+                <td><a href="https://github.com/sudheerachl/wordcounter">Link 1.1</a></td>
+                <td><a href="https://wordcounter-hazel.vercel.app/">Link 1.2</a></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Calculator</td>
+                <td><a href="https://github.com/sudheerachl/calculator-mern">Link 2.1</a></td>
+                <td><a href="https://calculator-mern.vercel.app/">Link 2.2</a></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Color Picker</td>
+                <td><a href="https://github.com/sudheerachl/colourpicker">Link 3.1</a></td>
+                <td><a href="https://colourpicker-two.vercel.app/">Link 3.2</a></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Dummy Data</td>
+                <td><a href="https://github.com/sudheerachl/dummydata">Link 4.1</a></td>
+                <td><a href="https://dummydata-six.vercel.app/">Link 4.2</a></td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Age Calculator</td>
+                <td><a href="https://github.com/sudheerachl/calculateage">Link 5.1</a></td>
+                <td><a href="https://calculateage.vercel.app/">Link 5.2</a></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
